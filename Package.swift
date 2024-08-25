@@ -32,7 +32,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/mapbox/mapbox-navigation-native-ios.git", revision: navNativeRevision),
-        .package(url: "https://github.com/mapbox/mapbox-maps-ios.git", exact: mapsVersion),
         .package(url: "https://github.com/mapbox/turf-swift.git", exact: "2.8.0"),
         .package(url: "https://github.com/AliSoftware/OHHTTPStubs", from: "9.1.0"),
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", exact: "1.12.0"),
